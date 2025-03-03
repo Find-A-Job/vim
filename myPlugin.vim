@@ -141,6 +141,8 @@ imap <A-Up> <Esc>:m .-2<cr>a
 #
 #
 # 遍历 RGB 颜色立方并显示颜色
+# set termguicolors 
+# colorscheme darcula
 def ShowCtermColor()
 for r in range(0, 5)
     for g in range(0, 5)
